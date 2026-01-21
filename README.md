@@ -164,14 +164,6 @@ src/
 
 Built for Shikshalokam Theme 1 Hackathon demonstration purposes.
 
----
-
-## 👥 Team
-
-*[Add your team members here]*
-
----
-
 ## 🙏 Acknowledgments
 
 - Shikshalokam for the hackathon opportunity
