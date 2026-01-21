@@ -1,0 +1,24 @@
+{
+  "name": "Shiksha Sathi - Teacher Copilot",
+  "short_name": "Shiksha Sathi",
+  "description": "Just-in-time, contextual coaching for government school teachers in India",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef3c7",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
