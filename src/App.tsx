@@ -3,6 +3,7 @@ import { AppLayout } from './components/AppLayout'
 import { AskPage } from './pages/AskPage'
 import { CoachPage } from './pages/CoachPage'
 import { HistoryPage } from './pages/HistoryPage'
+import { HomePage } from './pages/HomePage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { SuggestionsPage } from './pages/SuggestionsPage'
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <AppLayout>
       <Routes>
-        <Route path="/" element={<Navigate to="/ask" replace />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/ask" element={<AskPage />} />
         <Route path="/suggestions/:id" element={<SuggestionsPage />} />
         <Route path="/history" element={<HistoryPage />} />

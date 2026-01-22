@@ -30,6 +30,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
           </div>
 
           <nav className="flex gap-2 rounded-2xl bg-white/80 p-2 shadow-sm">
+            <TabLink to="/home" label="Home" />
             <TabLink to="/ask" label="Ask" />
             <TabLink to="/history" label="History" />
             <TabLink to="/coach" label="Coach" />
